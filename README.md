@@ -29,6 +29,15 @@ It’s built using:
 
 ---
 
+# images
+
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/744df7be-9c0b-4adf-a084-5117380b772d" />
+
+<img width="1900" height="953" alt="image" src="https://github.com/user-attachments/assets/ea29e0d2-d46f-476c-be8e-324a0f12acaf" />
+
+
+
+
 ##  What is Lazy Loading?
 
 Normally, when a React app starts, all pages are loaded at once.
@@ -41,9 +50,4 @@ Example:
 const About = lazy(() => import("./pages/About"));
 
 
-Project Images
-
-<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/7c3095e6-7aec-45e0-8fda-89767eede175" />
-<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/528436aa-6338-4303-8510-a9edc9c42baa" />
-<img width="1664" height="624" alt="image" src="https://github.com/user-attachments/assets/29b0a40b-6505-4f9e-ba0c-3fb9699075d6" />
 
