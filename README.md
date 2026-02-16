@@ -1,16 +1,49 @@
-# React + Vite
+#  React Lazy Loading Demo (Modern SPA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small modern React project built to understand how **lazy loading works in real applications**.
 
-Currently, two official plugins are available:
+Instead of loading every page at once, this app loads each page only when you visit it.  
+While the page is loading, a skeleton UI appears — just like modern apps.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The design is clean, card-based, and uses a modern gradient theme.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  What This Project Shows
 
-## Expanding the ESLint configuration
+This project demonstrates:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Route-based Lazy Loading
+- Dynamic `import()` in JavaScript
+- React `lazy()` and `Suspense`
+- Code Splitting
+- Skeleton Loading UI
+- Modern responsive design
+
+It’s built using:
+
+- React
+- Vite
+- React Router
+- Plain CSS (no UI library)
+
+---
+
+##  What is Lazy Loading?
+
+Normally, when a React app starts, all pages are loaded at once.
+
+In this project, pages are loaded **only when the user clicks on them**.
+
+Example:
+
+```js
+const About = lazy(() => import("./pages/About"));
+
+
+Project Images
+
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/7c3095e6-7aec-45e0-8fda-89767eede175" />
+<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/528436aa-6338-4303-8510-a9edc9c42baa" />
+<img width="1664" height="624" alt="image" src="https://github.com/user-attachments/assets/29b0a40b-6505-4f9e-ba0c-3fb9699075d6" />
+
