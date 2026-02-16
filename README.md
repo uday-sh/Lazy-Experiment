@@ -39,6 +39,7 @@ It’s built using:
 
 <img width="1906" height="723" alt="image" src="https://github.com/user-attachments/assets/08c17c7c-7854-426c-b405-7414a029af0b" />
 
+<img width="1893" height="903" alt="image" src="https://github.com/user-attachments/assets/7f5a41af-4c71-436d-b14b-c3e70176df4f" />
 
 
 
